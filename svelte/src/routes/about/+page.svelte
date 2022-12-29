@@ -2,6 +2,12 @@
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	import about1 from '$lib/images/about1.jpg';
 	import about22 from '$lib/images/about22.jpg';
+	import ao1 from '$lib/images/ao1.jpg';
+	import ao2 from '$lib/images/ao2.jpg';
+	import ao3 from '$lib/images/ao3.jpg';
+	import ao4 from '$lib/images/ao4.jpg';
+
+
 
 
 </script>
@@ -64,7 +70,80 @@
 			</div>
 		</div>
 	</div>
+	<div class="container-fluid sss">
+		<div class="row">
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<img  src={ao1} alt="">
+					<div class="card-body">
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
+					</div>
+				  </div>
+			</div>
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<img  src={ao2} alt="">
+					<div class="card-body">
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
+					</div>
+				  </div>
+			</div>
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<img  src={ao3} alt="">
+					<div class="card-body">
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  <div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
+					</div>
+				  </div>
+			</div>
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					<img  src={ao4} alt="">
+					<div class="card-body">
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					 <div>
+						 <p class="abc">
+							1.200.000đ
+						</p>
+					  <p class="dcmm">
+						995.000đ
+					</p>
+					 </div>
+					</div>
+				  </div>
+			</div>
+			
+		</div>
+
+	</div>
 <style>
+	.sss{
+		padding-top: 10px;
+	}
 	.About{
 		font-weight: 800;
 		font-size: 30px;
@@ -108,6 +187,14 @@
 		width: 930px;
 		height: 450px;
 		object-fit: cover;
+	}
+	.dcmm{
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.abc{
+		float: right;
+		text-decoration: line-through;
 	}
 	
 </style>
