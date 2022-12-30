@@ -15,7 +15,7 @@
 	<!-- <footer>
 		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
 	</footer> -->
-	<footer class="footer-section">
+	<footer class="footer-section bg-dark text ">
         <div class="container-fluid">
             <div class="footer-cta pt-5 pb-5">
                 <div class="row">

@@ -2,10 +2,9 @@
 	// import Counter from './Counter.svelte';
 	// import welcome from '$lib/images/svelte-welcome.webp';
 	// import welcome_fallback from '$lib/images/svelte-welcome.png';
+	
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	import {Carousel} from 'bootstrap';
-	import "bootstrap-icons/font/bootstrap-icons.css";
-
 	import hinh1 from '$lib/images/banner.jpg';
 	import hinh2 from '$lib/images/banner2.jpg';
 
@@ -80,19 +79,19 @@
 		<div>
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
 				<div class="carousel-indicators">
-				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active anhye" aria-current="true" aria-label="Slide 1"></button>
+				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="anhye" aria-label="Slide 2"></button>
 				  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 				</div>
 				<div class="carousel-inner">
 				  <div class="carousel-item active">
-					<img src={hinh1} class="d-block w-100" alt="...">
+					<img src={hinh1} class="d-block anhyeuem" alt="...">
 				  </div>
 				  <div class="carousel-item">
-					<img src={hinh2}  class="d-block w-100" alt="...">
+					<img src={hinh2}  class="d-block anhyeuem" alt="...">
 				  </div>
 				  <div class="carousel-item">
-					<img src={hinh3}  class="d-block w-100" alt="...">
+					<img src={hinh3}  class="d-block anhyeuem" alt="...">
 				  </div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -118,10 +117,14 @@
 						Đầm trơn xòe tay lỡ
 
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 				</div>
 				<div class="col-3">
 					<a href="/"><img class="proc_1" src={proc_1} alt=""></a>
@@ -129,10 +132,14 @@
 						Đầm trơn xòe tay lỡ
 
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 				</div>
 				<div class="col-3">
 					<a href="/"><img class="proc_1" src={proc2} alt=""></a>
@@ -140,10 +147,14 @@
 						Đầm trơn xòe tay lỡ
 
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 				</div>
 				<div class="col-3">
 					<a href="/"><img class="proc_1" src={proc3} alt=""></a>
@@ -151,10 +162,14 @@
 						Đầm trơn xòe tay lỡ
 
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 				</div>
 		
 				<div class="col-3">
@@ -163,10 +178,14 @@
 						Đầm trơn xòe tay lỡ
 
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 				</div>
 				<div class="col-3">
 					<a href="/"><img class="proc_1" src={proc4} alt=""></a>
@@ -174,30 +193,42 @@
 						Đầm trơn xòe tay lỡ
 
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 				</div>
 				<div class="col-3">
 					<a href="/"><img class="proc_1" src={proc6} alt=""></a>
 					<p  class="title_pro">
 						Gina Dress - Đầm xòe cut out
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 				</div>
 				<div class="col-3">
 					<a href="/"><img class="proc_1" src={proc7} alt=""></a>
 					<p  class="title_pro">
 						Chân váy dạ dáng đuôi cá
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 					
 			</div>
 			<div class="btn123">
@@ -242,10 +273,14 @@
 					<p class="title_proc">
 						Eser Set - Set áo lụa và chân váy kèm đai
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 				  </div>
 				  <div class="col-3 dumam">
 					<div class="info-ticket">NEW</div>
@@ -258,10 +293,14 @@
 					<p class="title_proc">
 						Eser Set - Set áo lụa và chân váy kèm đai
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 				  </div>
 				  <div class="col-3 dumam">
 					<div class="info-ticket">NEW</div>
@@ -274,10 +313,14 @@
 					<p class="title_proc">
 						Eser Set - Set áo lụa và chân váy kèm đai
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 				  </div>
 				  <div class="col-3 dumam">
 					<div class="info-ticket">NEW</div>
@@ -290,10 +333,14 @@
 					<p class="title_proc">
 						Eser Set - Set áo lụa và chân váy kèm đai
 					</p>
-					<p class="dcmm">
-						995.000đ
-
-					</p>
+					<div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 
 				  </div>
 				</div>
@@ -335,6 +382,16 @@
 
 
 <style>
+	.dcmmm{
+		text-align: center;
+		font-weight: 900;
+		float: right;
+		margin-right: 50px;
+	}
+	.anhyeuem{
+		width: 100%;
+    	height: 758px;
+	}
 	.aaa{
 		width: 100%;
 		text-decoration: none;
@@ -579,6 +636,10 @@
 }
 .btn123{
 	padding-bottom: 100px;
+}
+.abc{
+	font-size: 30px;
+    font-weight: bold;
 }
 
 </style>
