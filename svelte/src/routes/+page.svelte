@@ -7,8 +7,7 @@
 	import {Carousel} from 'bootstrap';
 	import hinh1 from '$lib/images/banner.jpg';
 	import hinh2 from '$lib/images/banner2.jpg';
-
-	import hinh3 from '$lib/images/banner.jpg';
+	import hinh3 from '$lib/images/banner5.jpg';
 	import proc0 from '$lib/images/proc0.jpg';
 	import proc_1 from '$lib/images/proc1.jpg';
 	import proc2 from '$lib/images/proc2.jpg';
@@ -111,11 +110,10 @@
 		</div>
 		<div  class="container-fluid text-center">
 			<div class="row">
-				<div class="col-3">
+				<div class="col-3 anhncc">
 					<a href="/"><img class="proc_1" src={proc0} alt=""></a>
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
-
 					</p>
 					<div>
 						<p class="abc">
@@ -124,9 +122,10 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-3 anhncc">
 					<a href="/"><img class="proc_1" src={proc_1} alt=""></a>
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
@@ -139,9 +138,10 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-3 anhncc">
 					<a href="/"><img class="proc_1" src={proc2} alt=""></a>
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
@@ -154,9 +154,10 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-3 anhncc">
 					<a href="/"><img class="proc_1" src={proc3} alt=""></a>
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
@@ -169,14 +170,14 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 				</div>
 		
-				<div class="col-3">
+				<div class="col-3 anhncc">
 					<a href="/"><img class="proc_1" src={proc8} alt=""></a>
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
-
 					</p>
 					<div>
 						<p class="abc">
@@ -185,9 +186,10 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-3 anhncc">
 					<a href="/"><img class="proc_1" src={proc4} alt=""></a>
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
@@ -200,9 +202,10 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-3 anhncc">
 					<a href="/"><img class="proc_1" src={proc6} alt=""></a>
 					<p  class="title_pro">
 						Gina Dress - Đầm xòe cut out
@@ -214,9 +217,10 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-3 anhncc">
 					<a href="/"><img class="proc_1" src={proc7} alt=""></a>
 					<p  class="title_pro">
 						Chân váy dạ dáng đuôi cá
@@ -228,6 +232,7 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 					
 			</div>
@@ -280,6 +285,7 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 				  </div>
 				  <div class="col-3 dumam">
@@ -300,6 +306,7 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 				  </div>
 				  <div class="col-3 dumam">
@@ -320,6 +327,7 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 				  </div>
 				  <div class="col-3 dumam">
@@ -340,6 +348,7 @@
 					 <p class="dcmm">
 					   995.000đ
 				   </p>
+				   <button type="button" class="btn btn-success">Mua ngay</button>
 					</div>
 
 				  </div>
@@ -413,7 +422,7 @@
 	}
 	.best_seller{
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 20px;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-weight: 600;
@@ -430,8 +439,8 @@
 		margin-bottom: 16px;
 		padding-left: 10px;
 		padding-bottom: 10px;
-		padding-top: 10px;
-		border-radius: 30px;
+		padding-top: 5px;
+		border-radius: 20px;
 		
 	}
 	.proc_1:hover{
@@ -641,5 +650,10 @@
 	font-size: 30px;
     font-weight: bold;
 }
-
+.btn-success:hover{
+	cursor: pointer;
+}
+.anhncc{
+	padding-bottom: 25px;
+}
 </style>
