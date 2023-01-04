@@ -8,6 +8,10 @@
 	"/contact": [
 		"src/routes/contact/+page.js"
 	],
+	"/list_product": [],
+	"/login": [
+		"src/routes/login/+page.js"
+	],
 	"/sverdle": [
 		"src/routes/sverdle/+page.server.js"
 	],

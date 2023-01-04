@@ -70,9 +70,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid sss">
+	<!-- list proc -->
+	<div class="container-fluid text-center">
 		<div class="row">
-			<div class="col-3">
+			<div class="col-3 sss">
 				<div class="card" style="width: 18rem;">
 					<img class="proc_1"  src={ao1} alt="">
 					<div  class="card-body">
@@ -88,10 +89,10 @@
 					</div>
 				  </div>
 			</div>
-			<div class="col-3">
+			<div class="col-3 sss">
 				<div class="card" style="width: 18rem;">
 					<img class="proc_1"  src={ao2} alt="">
-					<div class="card-body">
+					<div  class="card-body">
 					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					  <div>
 						<p class="abc">
@@ -104,10 +105,10 @@
 					</div>
 				  </div>
 			</div>
-			<div class="col-3">
+			<div class="col-3 sss">
 				<div class="card" style="width: 18rem;">
-					<img class="proc_1" src={ao3} alt="">
-					<div class="card-body">
+					<img class="proc_1"  src={ao3} alt="">
+					<div  class="card-body">
 					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					  <div>
 						<p class="abc">
@@ -120,29 +121,27 @@
 					</div>
 				  </div>
 			</div>
-			<div class="col-3">
+			<div class="col-3 sss">
 				<div class="card" style="width: 18rem;">
-					<img class="proc_1"  src={ao4} alt="">
-					<div class="card-body">
+					<img class="proc_1"  src={ao4 } alt="">
+					<div  class="card-body">
 					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					 <div>
-						 <p class="abc">
-							1.200.000đ
-						</p>
-					  <p class="dcmm">
-						995.000đ
-					</p>
-					 </div>
+					  <div>
+						<p class="abc">
+						   1.200.000đ
+					   </p>
+					 <p class="dcmm">
+					   995.000đ
+				   </p>
+					</div>
 					</div>
 				  </div>
 			</div>
-			
 		</div>
-
 	</div>
 <style>
 	.sss{
-		padding-top: 10px;
+		padding-top: 20px;
 	}
 	.About{
 		font-weight: 800;

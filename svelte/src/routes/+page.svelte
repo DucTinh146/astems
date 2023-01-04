@@ -111,7 +111,7 @@
 		<div  class="container-fluid text-center">
 			<div class="row">
 				<div class="col-3 anhncc">
-					<a href="/"><img class="proc_1" src={proc0} alt=""></a>
+					<img class="proc_1" src={proc0} alt="">
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
 					</p>
@@ -133,11 +133,11 @@
 	<div class="modal-dialog">
 	  <div class="modal-content">
 		<div class="modal-header">
-		  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Xem gì ở đây</h1>
 		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 		</div>
 		<div class="modal-body">
-		  ...
+		  HIHI
 		</div>
 		<div class="modal-footer">
 		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -149,7 +149,7 @@
 					</div>
 				</div>
 				<div class="col-3 anhncc">
-					<a href="/"><img class="proc_1" src={proc_1} alt=""></a>
+					<img class="proc_1" src={proc_1} alt="">
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
 
@@ -188,7 +188,7 @@
 					</div>
 				</div>
 				<div class="col-3 anhncc">
-					<a href="/"><img class="proc_1" src={proc2} alt=""></a>
+					<img class="proc_1" src={proc2} alt="">
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
 
@@ -227,7 +227,7 @@
 					</div>
 				</div>
 				<div class="col-3 anhncc">
-					<a href="/"><img class="proc_1" src={proc3} alt=""></a>
+					<img class="proc_1" src={proc3} alt="">
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
 
@@ -267,7 +267,7 @@
 				</div>
 		
 				<div class="col-3 anhncc">
-					<a href="/"><img class="proc_1" src={proc8} alt=""></a>
+					<img class="proc_1" src={proc8} alt="">
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
 					</p>
@@ -305,7 +305,7 @@
 					</div>
 				</div>
 				<div class="col-3 anhncc">
-					<a href="/"><img class="proc_1" src={proc4} alt=""></a>
+					<img class="proc_1" src={proc4} alt="">
 					<p class="title_pro">
 						Đầm trơn xòe tay lỡ
 
@@ -344,7 +344,7 @@
 					</div>
 				</div>
 				<div class="col-3 anhncc">
-					<a href="/"><img class="proc_1" src={proc6} alt=""></a>
+					<img class="proc_1" src={proc6} alt="">
 					<p  class="title_pro">
 						Gina Dress - Đầm xòe cut out
 					</p>
@@ -382,7 +382,7 @@
 					</div>
 				</div>
 				<div class="col-3 anhncc">
-					<a href="/"><img class="proc_1" src={proc7} alt=""></a>
+					<img class="proc_1" src={proc7} alt="">
 					<p  class="title_pro">
 						Chân váy dạ dáng đuôi cá
 					</p>
@@ -421,7 +421,7 @@
 					
 			</div>
 			<div class="btn123">
-				<button class="button"><span>Xem thêm! </span></button>
+				<a href="/list_product"><button class="button"><span>Xem thêm! </span></button></a>
 			</div>
 			
 		</div>
@@ -668,12 +668,12 @@
 
 
 <style>
-	.dcmmm{
+	/* .dcmmm{
 		text-align: center;
 		font-weight: 900;
 		float: right;
 		margin-right: 50px;
-	}
+	} */
 	.anhyeuem{
 		width: 100%;
     	height: 758px;
@@ -713,11 +713,15 @@
 		transition: transform .2s;
 		width: 330px;
 		height: 495px;
-		margin-bottom: 16px;
+		/* margin-bottom: 16px;
 		padding-left: 10px;
 		padding-bottom: 10px;
 		padding-top: 5px;
-		border-radius: 20px;
+		border-radius: 20px; */
+		border: 1px solid;
+		padding: 10px;
+		box-shadow: 5px 10px 8px 10px #888888;
+		cursor: pointer;
 		
 	}
 	.proc_1:hover{
@@ -832,6 +836,10 @@
     /* background-clip: text;
     text-fill-color: transparent; */
 }
+p.title_pro {
+	font-weight: 700;
+    padding-top: 40px;
+}
 /* list producct */
 .dumam{
 	position: relative;
@@ -927,9 +935,9 @@
 	font-size: 30px;
     font-weight: bold;
 }
-.btn-success:hover{
+/* .btn-success:hover{
 	cursor: pointer;
-}
+} */
 .anhncc{
 	padding-bottom: 25px;
 }
